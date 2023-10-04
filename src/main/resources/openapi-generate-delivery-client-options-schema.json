@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "mode": {
+      "type": "string"
+    },
+    "limit": {
+      "type": "string"
+    },
+    "test": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
+
