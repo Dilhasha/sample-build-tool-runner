@@ -1,9 +1,9 @@
 package build.tools.runners;
 
-import io.ballerina.cli.tool.BuildToolRunner;
+import io.ballerina.cli.tool.CodeGeneratorTool;
 import io.ballerina.projects.ToolContext;
 
-public class OpenAPIToolRunner implements BuildToolRunner {
+public class OpenAPIToolRunner implements CodeGeneratorTool {
     @Override
     public void execute(ToolContext toolContext) {
         System.out.println("OpenAPIPreBuildRunner.execute");
