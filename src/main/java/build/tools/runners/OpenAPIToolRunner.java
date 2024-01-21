@@ -8,7 +8,6 @@ public class OpenAPIToolRunner implements CodeGeneratorTool {
     public void execute(ToolContext toolContext) {
         System.out.println("OpenAPIPreBuildRunner.execute");
         System.out.println("toolContext.toolId() = " + toolContext.toolId());
-        System.out.println("toolContext.toolType() = " + toolContext.toolType());
         System.out.println("toolContext.sourceValue() = " + toolContext.filePath());
         System.out.println("toolContext.targetModule() = " + toolContext.targetModule());
         System.out.println("toolContext.optionsTable() = " + toolContext.optionsTable());
